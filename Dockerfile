@@ -1,5 +1,5 @@
 FROM scratch
 
-COPY main main
+COPY 10print main
 
 ENTRYPOINT ["./main"]
